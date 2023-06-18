@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoaderReset(@NonNull Loader<List<Earthquake>> loader) {
-        Log.d("gaur" , "onloadreset called");
         mAdapter.clear();
     }
 
